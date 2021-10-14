@@ -1,43 +1,28 @@
-<html>
+<html lang="en-US">
    <head>
    <link rel="stylesheet" href="style2.css" />
 
    </head>
    <body>
 
-   <div>
-       <style>
-           #photo {
-               width: 100%;
-               position: relative;
-           }
-           #yougo {
-               color: blue;
-               width: 15%;
-               margin-top: 65%;
-               margin-left: 50%;
-               transform: translate(-50%, -50%);
-               position: absolute;
-               animation-name: down;
-               animation-duration: 4s;
-               animation-fill-mode: both;
+    <div class="container">
+        <ul>
+            <li> GALLERY </li>
+            <li> ART </li>
+            <li> ONLINE </li>
+            <li> RESEARCH </li>
+            <li> TICKETS </li>
+            <li> SHOP </li>
+            <li> VISIT </li>
+            <li> SHEDULE </li>           
+        </ul>
+    </div>
+       <img id="main" src="img/photo.jpg" alt="exibition entrance photo" width="900" height="500">
+       <div id="backcolor"></div>
+       <h1 id="text"> TRYPTYCHOS <br> by LEVAN SONGULASHVILI </h1>   
+       <button id="yougo"> CHECK FOR MORE </button>
 
-           }
-           
-           @keyframes down {
-               0% {transform: translateY(0%);}
-               50% {transform: translateY(65%);}
-               100% {transform: translateY(70%);}
-           }
-          
-       </style>
-       <img id="photo" src="img/photo.jpg" alt="photo from gallery" width="1335" height="700" >
-
-       <h1 id="header"> TRYPTYCHOS </h1> 
-       <h2 id="text"> by LEVAN SONGULASHVILI </h2>
-       <button id="yougo"> SHARE YOUR OPINION </button> 
-
-   </div>
+  
 
    </body>
 
